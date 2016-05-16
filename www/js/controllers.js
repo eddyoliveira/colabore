@@ -10,6 +10,7 @@ angular.module('starter.controllers', [])
   //
   //$scope.$on('$ionicView.enter', function(e) {
   //});
+   $scope.count = 0;
 
   $scope.publicacoes = Publicacoes.all();
 })
